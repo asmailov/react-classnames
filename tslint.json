@@ -1,0 +1,14 @@
+{
+    "extends": ["tslint:latest", "tslint-react"],
+    "rules": {
+        "quotemark": {
+            "options": [
+                "single",
+                "jsx-double"
+            ]
+        },
+        "ordered-imports": false,
+        "no-implicit-dependencies": false,
+        "no-submodule-imports": false
+    }
+}

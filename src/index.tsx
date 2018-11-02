@@ -1,8 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import classnames from 'classnames';
+import { ClassName } from './core/component';
 
-const Index = () => {
-  return <div>react-classnames</div>;
-};
+export default ClassName;
 
-ReactDOM.render(<Index />, document.getElementById("app"));
+export { classnames };
+export { ClassName };
+
+export { ClassValue, ClassNames } from './core/model';
