@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import { FunctionArgType } from '../utils/type';
+import { FunctionArgType } from 'utils/type';
 
 type ClassNames = typeof classnames;
 type ClassValue = FunctionArgType<ClassNames>;
