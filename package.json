@@ -2,7 +2,7 @@
   "name": "react-classnames",
   "version": "1.0.0",
   "description": "classnames port to React",
-  "main": "index.js",
+  "main": "dist/main.js",
   "repository": "https://github.com/asmailov/react-classnames",
   "author": "Aleksandr Šmailov",
   "license": "MIT",
