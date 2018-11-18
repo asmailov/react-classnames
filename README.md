@@ -34,7 +34,7 @@ This produces:
 If we create **PrimaryButton** component
 ```jsx
 import * as React from 'react';
-import ClassNamed, { IClassNamed } from 'react-classnames';
+import ClassNamed, { IClassNamed } from 'react-classnamed';
 
 interface IProps extends IClassNamed {
     onClick?(): void;
