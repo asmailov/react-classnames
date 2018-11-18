@@ -1,4 +1,4 @@
-# react-classnames
+# react-classnamed
 
 Utility React component for using great <a href="https://github.com/JedWatson/classnames">classnames</a> package.
 
@@ -6,15 +6,15 @@ Utility React component for using great <a href="https://github.com/JedWatson/cl
 
 **npm**
 
-`npm install react-classnames --save`
+`npm install react-classnamed --save`
 
 **yarn**
 
-`yarn add react-classnames`
+`yarn add react-classnamed`
 
 ## Examples
 ```jsx
-import { ClassNamed } from 'react-classnames';
+import { ClassNamed } from 'react-classnamed';
 
 const element = (
   <ClassNamed className={['foo', { bar: true, test: false }]}>

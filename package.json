@@ -1,5 +1,5 @@
 {
-  "name": "react-classnames",
+  "name": "react-classnamed",
   "version": "1.0.0",
   "description": "classnames port to React",
   "main": "dist/main.js",
@@ -14,6 +14,7 @@
   "files": [
     "dist"
   ],
+  "keywords": ["react", "className", "classnames", "classNamed", "style"],
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",

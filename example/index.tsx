@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ClassName } from '../src/core/component';
+import { ClassNamed } from '../src/core/component';
 
 const Index = () => {
     return (
-        <ClassName className={['test', 'hello world', { asd: true }]}>
-            {({ className }) => (
-                <div className={className}>react-classnames</div>
+        <ClassNamed className={['test', 'hello world', { asd: true }]}>
+            {(mergedClassName) => (
+                <div className={mergedClassName}>react-classnamed</div>
             )}
-        </ClassName>
+        </ClassNamed>
     );
 };
 

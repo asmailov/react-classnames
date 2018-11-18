@@ -1,7 +1,7 @@
 /*!
   Copyright (c) 2018 Aleksandr Šmailov.
   Licensed under the MIT License (MIT), see
-  https://github.com/asmailov/react-classnames
+  https://github.com/asmailov/react-classnamed
 */
 
 import classnames from 'classnames';

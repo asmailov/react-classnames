@@ -11,7 +11,7 @@ module.exports = (_, { mode }) => {
             filename: isProd ? 'main.min.js' : 'main.js',
             path: path.resolve(__dirname, 'dist'),
             libraryTarget: 'umd',
-            library: "ReactClassnames",
+            library: "ReactClassnamed",
         },
         resolve: {
             extensions: ['.tsx', '.ts', '.js', '.jsx'],
