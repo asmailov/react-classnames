@@ -1,23 +1,35 @@
-#React ClassNames
+# react-classnames
 
 Utility React component for using great <a href="https://github.com/JedWatson/classnames">classnames</a> package.
 
+## Installation
 
+**npm**
+`npm install react-classnames --save`
+
+**yarn**
+`yarn add react-classnames`
+
+## Examples
 ```jsx
-<ClassNamed className={['foo', { bar: true, test: false }]}>
-  {(mergedClassName) => (
-    <div className={mergedClassName}>Foo Bar</div>
-  )}
-</ClassNamed>
+import { ClassNamed } from 'react-classnames';
+
+const element = (
+  <ClassNamed className={['foo', { bar: true, test: false }]}>
+    {(mergedClassName) => (
+      <div className={mergedClassName}>Foo Bar</div>
+    )}
+  </ClassNamed>
+);
 ```
 This produces:
 ```html
 <div class="foo bar">Foo Bar</div>
 ```
 
-Useful when creating core components which alow custom styles.
+### Useful when creating core components which alow custom styles.
 
-If we create PrimaryButton component
+If we create **PrimaryButton** component
 ```jsx
 import * as React from 'react';
 import ClassNamed, { IClassNamed } from 'react-classnames';
