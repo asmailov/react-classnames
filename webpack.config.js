@@ -8,7 +8,7 @@ module.exports = (_, { mode }) => {
     return {
         entry: isProd ? './src/index.tsx' : './example/index.tsx',
         output: {
-            filename: 'main.js',
+            filename: isProd ? 'main.min.js' : 'main.js',
             path: path.resolve(__dirname, 'dist'),
             libraryTarget: 'umd',
             library: "ReactClassnames",
@@ -35,7 +35,7 @@ module.exports = (_, { mode }) => {
                     exclude: /node_modules/,
                     use: [
                         {
-                            loader: 'babel-loader'
+                            loader: 'ts-loader'
                         }
                     ],
                 },
