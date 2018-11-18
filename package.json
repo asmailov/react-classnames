@@ -11,6 +11,9 @@
     "start": "webpack --mode development",
     "build": "webpack --mode production"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",

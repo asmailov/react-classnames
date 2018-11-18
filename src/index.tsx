@@ -1,9 +1,14 @@
-import classnames from 'classnames';
-import { ClassName } from './core/component';
+/*!
+  Copyright (c) 2018 Aleksandr Šmailov.
+  Licensed under the MIT License (MIT), see
+  https://github.com/asmailov/react-classnames
+*/
 
-export default ClassName;
+import classnames from 'classnames';
+import { ClassNamed, IClassNamed } from './core/component';
+
+export default ClassNamed;
 
 export { classnames };
-export { ClassName };
-
+export { ClassNamed, IClassNamed };
 export { ClassValue, ClassNames } from './core/model';

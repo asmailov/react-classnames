@@ -6,7 +6,7 @@ module.exports = (_, { mode }) => {
     const isDev = mode === 'development';
 
     return {
-        entry: isProd ? './src/index.tsx' : './example/index.tsx',
+        entry: './src/index.tsx',
         output: {
             filename: isProd ? 'main.min.js' : 'main.js',
             path: path.resolve(__dirname, 'dist'),
