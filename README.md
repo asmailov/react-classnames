@@ -54,11 +54,11 @@ export { PrimaryButton, IProps as IPrimaryButtonProps };
 ```
 We can use it like this:
 ```jsx
-<PrimaryButton className="hello-world-button">
+<PrimaryButton className={["custom-button", { active: true }]}>
   Hello world
 </PrimaryButton>
 ```
 Which results in this HTML:
 ```html
-<button class="primary-button hello-world-button">Hello world</button>
+<button class="primary-button custom-button active">Hello world</button>
 ```
