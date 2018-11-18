@@ -5,9 +5,11 @@ Utility React component for using great <a href="https://github.com/JedWatson/cl
 ## Installation
 
 **npm**
+
 `npm install react-classnames --save`
 
 **yarn**
+
 `yarn add react-classnames`
 
 ## Examples
