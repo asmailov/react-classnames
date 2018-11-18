@@ -3,7 +3,7 @@
 Utility React component for using great <a href="https://github.com/JedWatson/classnames">classnames</a> package.
 
 
-```
+```jsx
 <ClassNamed className={['foo', { bar: true, test: false }]}>
   {(mergedClassName) => (
     <div className={mergedClassName}>Foo Bar</div>
@@ -11,14 +11,14 @@ Utility React component for using great <a href="https://github.com/JedWatson/cl
 </ClassNamed>
 ```
 This produces:
-```
+```html
 <div class="foo bar">Foo Bar</div>
 ```
 
 Useful when creating core components which alow custom styles.
 
 If we create PrimaryButton component
-```
+```jsx
 import * as React from 'react';
 import ClassNamed, { IClassNamed } from 'react-classnames';
 
@@ -39,12 +39,12 @@ const PrimaryButton: React.SFC<IProps> = ({ className, onClick, children }) => (
 export { PrimaryButton, IProps as IPrimaryButtonProps };
 ```
 We can use it like this:
-```
+```jsx
 <PrimaryButton className="hello-world-button">
   Hello world
 </PrimaryButton>
 ```
 Which results in this HTML:
-```
+```html
 <button class="primary-button hello-world-button">Hello world</button>
 ```
